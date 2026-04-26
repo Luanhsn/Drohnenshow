@@ -1,0 +1,47 @@
+# Bytecode-Dateien
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Temporäre Dateien und Logs
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Python-Umgebungen
+env/
+venv/
+.venv/
+
+# OS-spezifisch
+.DS_Store       # macOS
+Thumbs.db       # Windows
+
+# Jupyter Notebooks Checkpoints (falls verwendet)
+.ipynb_checkpoints/
+
+# IDEs/Editoren
+.vscode/
+.idea/
+*.code-workspace
+
+# Build-/Install-Artefakte
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Konfigurations-/Cache-Dateien
+*.cache
+*.coverage
+*.mypy_cache/
+*.pytest_cache/
+*.pylint.d/
+
+# Persönliche Dateien
+*.secret
+*.env
+.env.*
+secrets.json
+saved_projects/
